@@ -1,1 +1,1 @@
-These codes are based on webdriver , uses selenium for automation testing.
+These codes are based on webdriver &  selenium for automation testing.
