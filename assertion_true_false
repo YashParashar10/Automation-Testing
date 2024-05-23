@@ -1,0 +1,15 @@
+import unittest
+#asserttrue & assertFalse
+
+from selenium import webdriver
+class Test(unittest.TestCase):
+    def testName(self):
+        driver = webdriver.Edge()
+        driver.maximize_window()
+        driver.get("https://google.com")
+        title_webpage  = driver.title
+        #self.assertTrue(title_webpage=="Google") # true
+        self.assertFalse(title_webpage=="Google")
+
+if __name__ =="__main__": 
+    unittest.main()
